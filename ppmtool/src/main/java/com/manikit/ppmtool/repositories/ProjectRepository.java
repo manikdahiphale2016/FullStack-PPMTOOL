@@ -7,9 +7,5 @@ import com.manikit.ppmtool.demo.Project;
 
 @Repository
 public interface ProjectRepository extends CrudRepository<Project, Long> {
-
-	@Override
-	Iterable<Project> findAllById(Iterable<Long> ids);
-	
 	
 }
